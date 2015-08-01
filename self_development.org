@@ -1,0 +1,14 @@
+
+* Improve skills in OS
+
+* Improve skills in Big Data
+
+* Improve skills in Programming Design
+
+* Improve skills in Optimization
+
+* Improve skills in Parallel Programming
+
+* Improve skills in Programming Languages
+
+* Improve skills in Software Development Process
