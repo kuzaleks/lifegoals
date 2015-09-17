@@ -2,13 +2,16 @@
 * Improve skills in OS
 
 * Improve skills in Big Data
+** TODO Pass Stanford edx "Statistical Learning" MOOC
 
 * Improve skills in Programming Design
 
 * Improve skills in Optimization
+** TODO Pass Stanford edx "Convex Optimization" MOOC
 
 * Improve skills in Parallel Programming
 
 * Improve skills in Programming Languages
+** TODO Pass Stanford edx "Compilers" MOOC
 
 * Improve skills in Software Development Process
