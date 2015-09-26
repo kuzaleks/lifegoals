@@ -1,6 +1,11 @@
 
 * Improve skills in OS
-
+* Math Fundamentals
+** Calculus
+*** TODO Multivariable Calculus at MIT
+** Linear Algebra
+** Probability Theory
+*** DONE Probability at Coursera
 * Improve skills in Big Data
 
 * Improve skills in Programming Design
@@ -12,3 +17,9 @@
 * Improve skills in Programming Languages
 
 * Improve skills in Software Development Process
+
+* Improve skills in Digital Signal Processing
+
+* Improve skills in Differential Equations
+
+* Improve skills in Entrepreneurship
