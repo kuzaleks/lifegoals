@@ -4,8 +4,13 @@
 ** Calculus
 *** TODO Multivariable Calculus at MIT
 ** Linear Algebra
+*** TODO Pass Applications of Linear Algebra Part 1 on edX
+*** TODO Pass Applications of Linear Algebra Part 2 on edX
 ** Probability Theory
 *** DONE Probability at Coursera
+** Improve skills in Differential Equations
+*** TODO Pass Linear Differential Equations MOOC on edX
+*** TODO Pass Nonlinear Differential Equations: Order and Chaos on edX
 * Improve skills in Big Data
 ** TODO Pass Stanford edx "Statistical Learning" MOOC
 
@@ -26,7 +31,7 @@
 
 * Improve skills in Digital Signal Processing
 
-* Improve skills in Differential Equations
+
 
 * Improve skills in Entrepreneurship
 
