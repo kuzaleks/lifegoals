@@ -1,6 +1,11 @@
 
 * Improve skills in OS
-
+* Math Fundamentals
+** Calculus
+*** TODO Multivariable Calculus at MIT
+** Linear Algebra
+** Probability Theory
+*** DONE Probability at Coursera
 * Improve skills in Big Data
 ** TODO Pass Stanford edx "Statistical Learning" MOOC
 
@@ -18,3 +23,10 @@
 * Mind Philosophy
 ** TODO Pass Minds and Machines MOOC at eDx
 ** TODO Pass Paradox and Infinity MOOC at eDx
+
+* Improve skills in Digital Signal Processing
+
+* Improve skills in Differential Equations
+
+* Improve skills in Entrepreneurship
+
