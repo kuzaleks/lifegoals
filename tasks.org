@@ -1,0 +1,24 @@
+
+* Preparation plan [0/11]
+** TODO Answer standard questions
+   SCHEDULED: <2015-12-15 Tue>
+** TODO Prepare answers for qustions from example assessment
+   SCHEDULED: <2015-12-16 Wed>
+** TODO Refine knowledge in Agile/Scrum
+   SCHEDULED: <2015-12-16 Wed>
+** TODO Refine knowledge in different types of official documents
+   SCHEDULED: <2015-12-16 Wed>
+** TODO Answer questions about D3 level as well as it's distinctions from other conjugate levels
+   SCHEDULED: <2015-12-17 Thu>
+** TODO Refine knowledge in different aspects of Python
+   SCHEDULED: <2015-12-16 Wed>
+** TODO Learn drawbacks and advantages of Design Patterns
+   SCHEDULED: <2015-12-17 Thu>
+** TODO Come up with examples of Design Patterns usage in you practice and in general
+   SCHEDULED: <2015-12-17 Thu>
+** TODO Learn by heart and reherse the self story
+   SCHEDULED: <2015-12-16 Wed>
+** TODO Elaborate answers about task estimation as well as trouble shooting
+   SCHEDULED: <2015-12-17 Thu>
+** TODO Check communication equipment
+   SCHEDULED: <2015-12-16 Wed>
