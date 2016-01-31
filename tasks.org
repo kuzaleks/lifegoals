@@ -1,6 +1,27 @@
 
-* Preparation plan [0/11]
-** TODO Answer standard questions
+* TODO Pass assessment for D3
+** TODO Prepare for questions
+*** What is D3? What are requirements for D3? What are destinctions from D4 and D2?
+*** Consider the project and describe the timeline
+*** How do you estimate time for tasks?
+*** Describe your biggest achevement
+*** Conflicts? Have you been inveolved in conflicts? Describe this experience
+*** Continious integration process
+*** How do you do the extimation
+**** Make task decomposition
+**** Can some parts be done concurrently? How do you collect risks -- how does it influence the schedule?
+**** Do you review your estimates? Can you provide numbers for evaluation the accuracy of estimation
+*** Describe lifecicle of sprints.
+**** Events: grooming, duration, retrospective, the result, hand off to QA. Scrum Master. User stories => tasks
+*** Trouble shooting technics
+**** Debug (dbg), Reproduction, logging, destributed over severity, Code Reviewing
+*** Why is code review is important?
+**** Follow the codestyle, look from another perspective, verify compatability
+*** What techinques do you use to garante reutines respons in time? Will react in time?
+**** Destributing priorities of tasks. Implementing fear shearing. Hard testing.
+
+* Preparation plan [5/12]
+** DONE Answer standard questions
    SCHEDULED: <2015-12-15 Tue>
 ** TODO Prepare answers for qustions from example assessment
    SCHEDULED: <2015-12-16 Wed>
@@ -8,7 +29,7 @@
    SCHEDULED: <2015-12-16 Wed>
 ** TODO Refine knowledge in different types of official documents
    SCHEDULED: <2015-12-16 Wed>
-** TODO Answer questions about D3 level as well as it's distinctions from other conjugate levels
+** DONE Answer questions about D3 level as well as it's distinctions from other conjugate levels
    SCHEDULED: <2015-12-17 Thu>
 ** TODO Refine knowledge in different aspects of Python
    SCHEDULED: <2015-12-16 Wed>
@@ -16,9 +37,14 @@
    SCHEDULED: <2015-12-17 Thu>
 ** TODO Come up with examples of Design Patterns usage in you practice and in general
    SCHEDULED: <2015-12-17 Thu>
-** TODO Learn by heart and reherse the self story
+** DONE Learn by heart and reherse the self story
    SCHEDULED: <2015-12-16 Wed>
 ** TODO Elaborate answers about task estimation as well as trouble shooting
    SCHEDULED: <2015-12-17 Thu>
-** TODO Check communication equipment
+** DONE Check communication equipment
    SCHEDULED: <2015-12-16 Wed>
+
+** DONE Revise my goals
+   SCHEDULED: <2015-12-16 Ср.>
+
+
