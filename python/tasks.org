@@ -1,0 +1,5 @@
+* Get familiar with python modules
+** Get familiar with twisted
+** Get familiar with jinja2
+** Get familiar with gevent
+* Get familiar with new python 3.5 features
