@@ -1,2 +1,5 @@
 
 * One of the first steps is to find the entry point to a system
+
+* Ideas for Startup
+** Environment for debuggin of cuncurrent systems
