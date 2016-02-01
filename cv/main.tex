@@ -1,0 +1,180 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Aliaksei}{Kuzmin}
+\title{Resumé}                               % optional, remove / comment the line if not wanted
+\address{Rafieva 97-56}{220051 Minsk}{Belarus}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+375~(29)~504~59~73}                   % optional, remove / comment the line if not wanted
+\phone[fixed]{+375~(17)~274~76~42}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+375~(17)~274~76~42}                      % optional, remove / comment the line if not wanted
+\email{kuzAleksAleks@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{http://linkedin.com/in/kuzaleksaleks}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+\photo[64pt][0.4pt]{Portrait2}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+ % arguments 3 to 6 can be left empty
+\cventry{2009--2010}{Master}{Belarusian State University}{Minsk}{\textit{GPA 8.3 out of 10.0}}{Department of Informatics, Faculty of Radio Physics and Electronics 
+}
+
+\cventry{2004--2009}{Specialist (Diploma with distinction)}{Belarusian State University}{Minsk}{\textit{GPA 8.8 out of 10.0}}{Department of Systems Analysis, Faculty of Radio Physics and Electronics
+}
+
+\section{Master thesis}
+\cvitem{title}{\emph{``Development of a Voice Interface to the Measuring Device''}}
+\cvitem{supervisors}{PhD. Stecko I.P. (istetsko@rambler.ru)}
+%\cvitem{description}{Short thesis abstract}
+
+\section{Diploma}
+\cvitem{title}{\emph{``Development of the Speech Interface Support for The Measuring Data Using Micro controller NEC V850''}}
+\cvitem{supervisors}{PhD. Karzhukov P.P. (korzhukov@bsu.by)}
+%\cvitem{description}{Short thesis abstract}
+
+\section{Achievements}
+\cvitem{2009}{The title of the best graduate of the Faculty of Radio Physics and Electronics 2009}
+\cvitem{2009}{Award of the Ministry of Education of the Republic of Belarus for the excellent results in studies}
+
+\section{Experience}
+\subsection{Vocational}
+\cventry{2009--present}{TA at Belarusian State University}{Department of Informatics and Computer Systems}{Minsk}{}{Teaching programming and numerical methods \\ Scientific research, programming, English language support}
+\cventry{2009}{iOS Developer}{SoftTeco}{Minsk}{}{Architectural design and implementation of iPhone OS applications}
+%\subsection{Miscellaneous}
+%\cventry{year--year}{Job title}{Employer}{City}{}{Description}
+
+\section{Languages}
+\cvitemwithcomment{English}{Advanced}{Cambridge English CAE Level C1, ref number: 156BY0025029, \\
+Statement of Accomplishment MOOC ''Writing in the Sciences``\\
+ at Stanford OpenEdX, \\
+IELTS Academic 2010 Overall Band Score 6.5}
+\cvitemwithcomment{Russian}{Native}{Bilingual}
+\cvitemwithcomment{Belarusian}{Native}{Bilingual}
+
+\section{Computer skills}
+\cvdoubleitem{Python}{Numpy, Scipy, sklearn}{Scala}{rx observable, akka}
+\cvdoubleitem{C++}{teaching at BSU}{Linux}{Ubuntu Linux}
+\cvdoubleitem{Subversion}{git}{Octave}{Machine Learning}
+\cvdoubleitem{DB}{basics of PostgreSQL, MongoDB}{IDE}{emacs, Eclipse}
+%\cvdoubleitem{Objective-C}{iOS}{IDE}{emacs, Eclipse}
+%\cvdoubleitem{IAAS}{AWS}{PAAS}{basics of Heroku}
+
+%\section{Interests}
+%\cvitem{hobby 1}{Description}
+%\cvitem{hobby 2}{Description}
+%\cvitem{hobby 3}{Description}
+
+\section{Certificates}
+\cvitem{Coursera}{Digital Signal Processing}
+\cvitem{Coursera}{Linear and Descrete Optimization}
+\cvitem{Coursera}{An Introduction to Functional Analysis}
+\cvitem{Coursera}{Heterogeneous Parallel Programming}
+\cvitem{Coursera}{Principles of Reactive Programming}
+\cvitem{Coursera}{Machine Learning}
+\cvitem{Coursera}{Coding the Matrix: Linear Algebra through Computer Science Applications}
+\cvitem{Coursera}{Startup Engineering}
+\cvitem{Coursera}{Functional Programming Principles in Scala}
+\cvitem{Stanford OpenEdX}{Writing in the Sciences}
+\cvitem{Coursera}{Analysis of a Complex Kind}
+
+\section{Community Activities}
+\cvitem{2008--2009}{Chairman of the Student Union of the Faculty of Radio Physics and Electronics}
+\cvitem{2008--2010}{Head of HR department of the Student Union of the Belorussian State University}
+\cvitem{2013--present}{IEEE Membership}
+\cvitem{2013--present}{IEEE Signal Processing Society Membership}
+\cvitem{2013--present}{IEEE Computer Society Membership}
+%\section{Extra 1}
+%\cvlistitem{Item 1}
+%\cvlistitem{Item 2}
+%\cvlistitem{Item 3. This item is particularly long and therefore normally spans over several lines. Did you notice the indentation when the line wraps?}
+
+%\section{Extra 2}
+%\cvlistdoubleitem{Item 1}{Item 4}
+%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
+%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
+
+%\section{References}
+%\begin{cvcolumns}
+%  \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
+%  \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
+%  \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
+%\end{cvcolumns}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+%\recipient{EDIC}{ÉCOLE POLYTECHNIQUE FÉDÉRALE DE LAUSANNE}
+%\date{January 15, 2014}
+%\opening{Hello,}
+%\closing{Best regards. Look forward to become a part of your institution team}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+%\makelettertitle
+
+%My name is Aliaksei. All the recent years I've been doing a research in the speech recognition at Belarusian State University. All my projects are going to be finished within the following half a year. Now I am wondering to change my research field. Passing MOOC courses on coursera.org, I was highly inspired by courses provided by EPFL ("Functional Programming in Scala" and "Reactive Programming"). I found them the most profitable and challenging among the rest. This fact inspired me to find out more about your institution. As the result the perspective to work on PhD program provided by EDIC program seemed to me fascinating. The reasons for that are following: the number of really interesting state-of-the-art researches in the field of computer sciences, the outstanding professional level of professors such as Erik Meijer, Martin Odersky or Roland Kuhn. But the most attractive perspective for me is the possibility to become a really good specialist in computer sciences, because it may allow me to get hired in the top IT companies.
+
+%From my side a can offer the following self qualities to bring as much profit to research as it possible. The plenty of mathematical courses during the studying at the university formed a strong background in mathematics (calculus, linear algebra, probability theory, etc.). Some product development experience and my current research programming practice provided me sufficient programming skills (Python, C++). Four years of academic research gives me a significant and valuable experience in doing science. Except caring out the research itself this experience includes article writing skills (my articles and statement of accomplishment at "Writing in Science" course at Stanford University MOOC platform OpenEdx), experience at conferences and teacher assistance practice.
+
+%But the most reliable reason to employ me on EPFL PhD program is my great motivation and large ambitions to accomplish my work as good as it only possible.
+
+%\makeletterclosing
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+\end{document}
+
+
+%% end of file `template.tex'.
