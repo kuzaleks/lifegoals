@@ -1,0 +1,22 @@
+* Develop myself on courses
+** List of possible courses (from https://learn.epam.com/catalog/upcoming)
+   :PROPERTIES:
+   :tags:     UML, Management, Linux, OS, Agile, SQL, NoSQL, BigData, Concurrency, Scala
+   :END:
+
+   Selecting courses, I was based on interest in domaines listed in properties
+
+   1) Scala Beginner (https://learn.epam.com/trainingTemplate/536/scala-beginner)
+   2) MongoDB for Professionals (https://learn.epam.com/trainingTemplate/120/mongodb-for-professionals)
+   3) People Management (https://learn.epam.com/trainingTemplate/233/people-management)
+   4) Dive into Jenkins (https://learn.epam.com/trainingTemplate/74/dive-into-jenkins)
+   5) Unix Bash Programming (https://learn.epam.com/trainingTemplate/190/unix-bash-programming)
+   6) Using Jira for Scrum Processes (https://learn.epam.com/trainingTemplate/158/using-jira-for-scrum-projects)
+   7) Kanban - Stop Starting, Start Finishing (https://learn.epam.com/trainingTemplate/186/kanban--stop-starting--start-finishing)
+   8) UML (https://learn.epam.com/trainingTemplate/192/uml)
+   9) Behavior Driven Development (https://learn.epam.com/trainingTemplate/223/behavior-driven-development)
+   10) Decision Making (https://learn.epam.com/trainingTemplate/411/decision-making)
+   11) Agile Thinking (https://learn.epam.com/trainingTemplate/514/agile-thinking)
+   12) HDFS MapReduce in Apache Hadoop (https://learn.epam.com/trainingTemplate/525/hdfs-mapreduce-in-apache-hadoop)
+   13) Scalatest: fearless test automation (https://learn.epam.com/trainingTemplate/647/scalatest-fearless-test-automation)
+   14) It would be great to pass course about Apache Spark
