@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+
+\bibitem{csist2011}
+A.~A.~Kuzmin I.~A.~Kheidorov.
+\newblock Development of the continuous speech recognition system using
+  semantic analysis.
+\newblock In {\em Proc. of the International Congress CSIST'2011}, volume~2,
+  pages 380--385, 2011.
+
+\bibitem{csist2013}
+A.~A.~Kuzmin I.~A.~Kheidorov.
+\newblock Speech recognition system based on support vector machines.
+\newblock In {\em Proc. of the International Congress CSIST'2013}, 2013.
+
+\bibitem{ijert}
+A.~Kuzmin I.~Cheydorov.
+\newblock Two step algorithm of separate words recognition in continuous speech
+  based on usage of acoustic and language models.
+\newblock {\em International Journal of Engineering Research and Technology
+  (IJERT)}, 2:2413--2416, 2013.
+
+\bibitem{spTech2012}
+A.~A. Kuzmin.
+\newblock Speech input subsystem for the semantic knowledge bases.
+\newblock {\em Speech Technology}, 4:26--35, 2010.
+
+\bibitem{doklBguir2011}
+V.~A.~Zhitko V.~N.~Valcev Yu.~S.~Gecevich A.~A. Kuzmin.
+\newblock Natural language user interfaces for question answering intelligent
+  systems.
+\newblock {\em Doklady BGUIR. Electronics, Radiophysics, Radio Engineering,
+  Informatics}, 8:80--86, 2011.
+
+\bibitem{ostis2011}
+A.~Kuzmin V.~Zhitko et~al.
+\newblock Semantic technology of the natural language interface component
+  design for the intelligent question answering systems.
+\newblock In {\em Proc. of the International Scientific and Technical Conf.
+  OSTIS~2011}, page 395, 2011.
+
+\bibitem{ostis2012}
+A.~Kuzmin V.~Zhitko et~al.
+\newblock Semantic technology of the natural russian and belarusian language
+  interface design for the question answering systems.
+\newblock In {\em Proc. of the International Scientific and Technical Conf.
+  OSTIS~2012}, page 401, 2012.
+
+\end{thebibliography}
