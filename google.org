@@ -12,14 +12,14 @@
 ** TODO Sorting and Searching
    SCHEDULED: <2016-03-21 Пн.>
 ** TODO Graphs [0/4]
-   SCHEDULED: <2016-03-14 Пн.>
+   SCHEDULED: <2016-03-28 Mon>
 *** TODO Graph traversal
 *** TODO Weighted Graph Algorithms
 *** TODO Hard Graph Problems
 ** TODO Cambinatorial Search and Heuristic Methods
-   SCHEDULED: <2016-03-28 Пн.>
+   SCHEDULED: <2016-03-14 Mon>
 ** TODO Dynamic Programming
-   SCHEDULED: <2016-03-28 Пн.>
+   SCHEDULED: <2016-03-14 Mon>
 ** TODO Intractable Problems
    SCHEDULED: <2016-04-11 Пн.>
 *** TODO Pass approximation I course on Coursera
