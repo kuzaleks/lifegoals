@@ -3,3 +3,4 @@
 
 * Ideas for Startup
 ** Environment for debuggin of cuncurrent systems
+* It might be the case that this peculiar way of thinking that is so common within IT is what helps them do be a good developers
