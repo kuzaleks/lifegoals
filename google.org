@@ -10,21 +10,21 @@
 ** TODO The algorithms analysis and proof of correctness
    SCHEDULED: <2016-03-28 Пн.>
 ** TODO Sorting and Searching
-   SCHEDULED: <2016-03-21 Пн.>
+   SCHEDULED: <2016-04-18 Пн.>
 ** TODO Graphs [0/4]
-   SCHEDULED: <2016-03-28 Mon>
+   SCHEDULED: <2016-04-04 Пн.>
 *** TODO Graph traversal
 *** TODO Weighted Graph Algorithms
 *** TODO Hard Graph Problems
 ** TODO Cambinatorial Search and Heuristic Methods
-   SCHEDULED: <2016-03-14 Mon>
-** TODO Dynamic Programming
+   SCHEDULED: <2016-04-18 Пн.>
+** DONE Dynamic Programming
    SCHEDULED: <2016-03-14 Mon>
 ** TODO Intractable Problems
    SCHEDULED: <2016-04-11 Пн.>
 *** TODO Pass approximation I course on Coursera
 ** TODO Computational Giometry 
-   SCHEDULED: <2016-03-21 Пн.>
+   SCHEDULED: <2016-03-28 Пн.>
 ** TODO Set and Strings Problem
    SCHEDULED: <2016-04-11 Пн.>
 ** TODO Operating Systems

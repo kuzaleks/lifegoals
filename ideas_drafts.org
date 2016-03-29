@@ -4,3 +4,7 @@
 * Ideas for Startup
 ** Environment for debuggin of cuncurrent systems
 * It might be the case that this peculiar way of thinking that is so common within IT is what helps them do be a good developers
+* How can we use a singl the proof for the infinite use cases?
+  May be there is a relation between the phenomenon of convergency of
+  infinite sums (integrals) and the essence of proof for the infinite number
+  of use cases?
