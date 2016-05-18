@@ -7,27 +7,41 @@
    http://www.valleytalk.org/wp-content/uploads/2012/10/CrackCode.pdf
 ** TODO Coding: You should know at least one programming language really well
    SCHEDULED: <2016-03-10 Чт.>
-** TODO The algorithms analysis and proof of correctness
+** DONE The algorithms analysis and proof of correctness
    SCHEDULED: <2016-03-28 Пн.>
 ** TODO Sorting and Searching
    SCHEDULED: <2016-04-18 Пн.>
-** TODO Graphs [0/4]
+** TODO Graphs [2/3]
    SCHEDULED: <2016-04-04 Пн.>
-*** TODO Graph traversal
-*** TODO Weighted Graph Algorithms
+*** DONE Graph traversal
+*** DONE Weighted Graph Algorithms
 *** TODO Hard Graph Problems
 ** TODO Cambinatorial Search and Heuristic Methods
    SCHEDULED: <2016-04-18 Пн.>
 ** DONE Dynamic Programming
    SCHEDULED: <2016-03-14 Mon>
-** TODO Intractable Problems
+   A dynamic-programming approach runs in polynomial
+   time when the number of distinct subproblems involved is polynomial in the input
+   size and we can solve each such subproblem in polynomial time
+** DONE Intractable Problems
    SCHEDULED: <2016-04-11 Пн.>
-*** TODO Pass approximation I course on Coursera
-** TODO Computational Giometry 
+*** DONE Pass approximation I course on Coursera
+** DONE Computational Giometry 
    SCHEDULED: <2016-03-28 Пн.>
-** TODO Set and Strings Problem
+** DONE Set and Strings Problem
    SCHEDULED: <2016-04-11 Пн.>
 ** TODO Operating Systems
    SCHEDULED: <2016-03-10 Чт.>
 *** http://research.google.com/pubs/DistributedSystemsandParallelComputing.html
 *** http://mitpress.mit.edu/sites/default/files/titles/content/9780262033848_sch_0001.pdf
+* TODO Rehearse
+** DONE String and Sets cover
+   SCHEDULED: <2016-04-18 Пан>
+** TODO Dynamic Programming
+   SCHEDULED: <2016-04-19 Аўт>
+** TODO Cambinatorial Search and Heuristic Methods
+   SCHEDULED: <2016-04-20 Срд>
+** TODO Graphs
+   SCHEDULED: <2016-04-21 Чцв>
+** TODO Sorting and Searching and Computational Giometry 
+   SCHEDULED: <2016-04-22 Пят>
