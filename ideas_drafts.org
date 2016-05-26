@@ -14,9 +14,11 @@
   as the most obvious case.
 * One of the main purposes of Blogs is the public inside info that might substitute the live informal communication
 * Knowledge acquisition algorithm 
-** Come from what you know to the new theory
+** Come from what you know to the new knowledge
 *** Face with the problem and understand the motivation
 *** Try to resolve with tools that you already have
 *** Take a look at the solution with new tool without insights of it
 *** Read the specification of the new tool
+*** Explain to somebody with simple examples
+*** Facilitate everything with state-of-art IT support
 
