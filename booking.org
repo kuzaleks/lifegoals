@@ -1,0 +1,43 @@
+
+* Get employed on postion of developer at Booking.com
+** DONE Pass the auto-graded challenge on HackerRank
+** DONE Pass the phone-interview
+** TODO Pass the on-site interview
+*** Do well on Algorithms and Data Structures part [0/8]
+**** TODO Miscelenious
+     DEADLINE: <2016-08-19 Пят> SCHEDULED: <2016-08-19 Пят>
+***** Dynamic connectivity
+***** Linked Lists
+**** TODO Refine Sort and Search algs
+     DEADLINE: <2016-08-17 Срд> SCHEDULED: <2016-08-18 Чцв>
+***** Priority Queue
+***** Sorting algs
+***** Binary Search and other kinds of trees
+**** TODO Reinforce Graph algs
+     DEADLINE: <2016-08-21 Няд> SCHEDULED: <2016-08-20 Суб>
+***** Shortest paths
+***** MST
+**** TODO Improve skill in Dynamic Programming techniq 
+     DEADLINE: <2016-08-23 Аўт> SCHEDULED: <2016-08-22 Пан>
+**** TODO Rehearse Backtrace method
+     DEADLINE: <2016-08-24 Срд> SCHEDULED: <2016-08-24 Срд>
+**** TODO Train string algs
+     DEADLINE: <2016-08-26 Пят> SCHEDULED: <2016-08-25 Чцв>
+**** TODO Learn multithreaded algs
+     DEADLINE: <2016-08-27 Суб> SCHEDULED: <2016-08-27 Суб>
+***** Revise synchronisation tools and IPC
+**** TODO Geometric prblems
+     DEADLINE: <2016-08-29 Пан> SCHEDULED: <2016-08-28 Няд>
+
+*** Do great on System Design part [0/5]
+**** TODO Learn and refine REST API and HTTP Protocol
+     DEADLINE: <2016-08-18 Чцв> SCHEDULED: <2016-08-16 Аўт>
+**** TODO Revise OOP Design Patterns
+     DEADLINE: <2016-08-20 Суб> SCHEDULED: <2016-08-19 Пят>
+**** TODO Learn Distributed Systems Patterns
+     DEADLINE: <2016-08-24 Срд> SCHEDULED: <2016-08-21 Няд>
+**** TODO Learn CAP Thr and Refine distinctions between SQL and NoSQL systems
+     DEADLINE: <2016-08-28 Няд> SCHEDULED: <2016-08-25 Чцв>
+
+*** Be good enough on final part [0/1]
+**** TODO Read Booking.com blogs every day up to the interview
