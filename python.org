@@ -1,0 +1,5 @@
+
+* Get aquiented with version control tools
+** virtual envs switch "tox"
+* Get aquiented with python/sql interaction
+** TODO Read thoroughly about SQLAlchemy

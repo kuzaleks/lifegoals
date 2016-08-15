@@ -2,9 +2,23 @@
 * One of the first steps is to find the entry point to a system
 
 * Ideas for Startup
-** Environment for debuggin of cuncurrent systems
+** Environment for debugging of concurrent systems
 * It might be the case that this peculiar way of thinking that is so common within IT is what helps them do be a good developers
-* How can we use a singl the proof for the infinite use cases?
-  May be there is a relation between the phenomenon of convergency of
+* How can we use a single the proof for the infinite use cases?
+  May be there is a relation between the phenomenon of convergence of
   infinite sums (integrals) and the essence of proof for the infinite number
   of use cases?
+* Can we consider the sexual act as the way to consume the beauty?
+  We can say that something is sexy when we can see either outer of inner
+  beauty in that. The sexual desire for beautiful women can be considered 
+  as the most obvious case.
+* One of the main purposes of Blogs is the public inside info that might substitute the live informal communication
+* Knowledge acquisition algorithm 
+** Come from what you know to the new knowledge
+*** Face with the problem and understand the motivation
+*** Try to resolve with tools that you already have
+*** Take a look at the solution with new tool without insights of it
+*** Read the specification of the new tool
+*** Explain to somebody with simple examples
+*** Facilitate everything with state-of-art IT support
+

@@ -8,6 +8,7 @@
 *** TODO Pass Applications of Linear Algebra Part 2 on edX
 ** Probability Theory
 *** DONE Probability at Coursera
+*** TODO Comprehend Statistical Decision Making theory
 ** Improve skills in Differential Equations
 *** TODO Pass Linear Differential Equations MOOC on edX
 *** TODO Pass Nonlinear Differential Equations: Order and Chaos on edX
@@ -15,21 +16,28 @@
 ** TODO Pass Stanford edx "Statistical Learning" MOOC
 
 * Improve skills in Programming Design
+** TODO pass course "Functional Program Design in Scala" on Coursera
 
 * Improve skills in Optimization
 ** TODO Pass Stanford edx "Convex Optimization" MOOC
 
 * Improve skills in Parallel Programming
+** TODO pass course "Parallel programming" on Coursera
+** TODO learn section "Multithreaded Algorithms" of "introduction-to-algorithms" 
 
 * Improve skills in Programming Languages
 ** TODO Pass Stanford edx "Compilers" MOOC
 
 * Improve skills in Software Development Process
 * Mind Philosophy
-** TODO Pass Minds and Machines MOOC at eDx
+** DONE Pass Minds and Machines MOOC at eDx
 ** TODO Pass Paradox and Infinity MOOC at eDx
+
+** TODO Pass "Ancient Phylosophers" on Coursera
 
 * Improve skills in Digital Signal Processing
 
 * Improve skills in Entrepreneurship
+
+* Learn to draw
 
