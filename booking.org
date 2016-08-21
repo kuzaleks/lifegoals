@@ -3,9 +3,10 @@
 ** DONE Pass the auto-graded challenge on HackerRank
 ** DONE Pass the phone-interview
 ** TODO Pass the on-site interview
-*** Do well on Algorithms and Data Structures part [1/8]
-**** TODO Miscelenious
+*** Do well on Algorithms and Data Structures part [2/8]
+**** DONE Miscelenious
      DEADLINE: <2016-08-19 Пят> SCHEDULED: <2016-08-19 Пят>
+     CLOCK: [2016-08-20 Суб 19:51]--[2016-08-21 Няд 23:39] => 27:48
 ***** Dynamic connectivity
 ***** Linked Lists
 ***** 2-d Arrays manipulation
@@ -30,13 +31,14 @@
 **** TODO Geometric prblems
      DEADLINE: <2016-08-29 Пан> SCHEDULED: <2016-08-28 Няд>
 
-*** Do great on System Design part [0/5]
-**** TODO Learn and refine REST API and HTTP Protocol
+*** Do great on System Design part [1/4]
+**** DONE Learn and refine REST API and HTTP Protocol
      DEADLINE: <2016-08-20 Суб> SCHEDULED: <2016-08-16 Аўт>
 **** TODO Revise OOP Design Patterns
      DEADLINE: <2016-08-23 Аўт> SCHEDULED: <2016-08-21 Няд>
 **** TODO Learn Distributed Systems Patterns
      DEADLINE: <2016-08-27 Суб> SCHEDULED: <2016-08-25 Чцв>
+     Udacity. Introduction to OS. Thread Performance, I/O Management
 **** TODO Learn CAP Thr and Refine distinctions between SQL and NoSQL systems
      DEADLINE: <2016-08-30 Аўт> SCHEDULED: <2016-08-28 Няд>
 
