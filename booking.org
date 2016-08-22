@@ -3,7 +3,7 @@
 ** DONE Pass the auto-graded challenge on HackerRank
 ** DONE Pass the phone-interview
 ** TODO Pass the on-site interview
-*** Do well on Algorithms and Data Structures part [2/8]
+*** Do well on Algorithms and Data Structures part [3/8]
 **** DONE Miscelenious
      DEADLINE: <2016-08-19 Пят> SCHEDULED: <2016-08-19 Пят>
      CLOCK: [2016-08-20 Суб 19:51]--[2016-08-21 Няд 23:39] => 27:48
@@ -15,20 +15,20 @@
 ***** Priority Queue
 ***** Sorting algs
 ***** Binary Search and other kinds of trees
-**** TODO Reinforce Graph algs
-     DEADLINE: <2016-08-21 Няд> SCHEDULED: <2016-08-20 Суб>
+**** DONE Reinforce Graph algs
+     DEADLINE: <2016-08-22 Пан> SCHEDULED: <2016-08-20 Суб>
 ***** Shortest paths
 ***** MST
 **** TODO Improve skill in Dynamic Programming techniq 
-     DEADLINE: <2016-08-23 Аўт> SCHEDULED: <2016-08-22 Пан>
+     DEADLINE: <2016-08-25 Чцв> SCHEDULED: <2016-08-23 Аўт>
 **** TODO Rehearse Backtrace method
      DEADLINE: <2016-08-24 Срд> SCHEDULED: <2016-08-24 Срд>
 **** TODO Train string algs
-     DEADLINE: <2016-08-26 Пят> SCHEDULED: <2016-08-25 Чцв>
+     DEADLINE: <2016-08-27 Суб> SCHEDULED: <2016-08-26 Пят>
 **** TODO Learn multithreaded algs
-     DEADLINE: <2016-08-27 Суб> SCHEDULED: <2016-08-27 Суб>
+     DEADLINE: <2016-08-28 Няд> SCHEDULED: <2016-08-28 Няд>
 ***** Revise synchronisation tools and IPC
-**** TODO Geometric prblems
+**** TODO Geometric problems
      DEADLINE: <2016-08-29 Пан> SCHEDULED: <2016-08-28 Няд>
 
 *** Do great on System Design part [1/4]
@@ -37,7 +37,7 @@
 **** TODO Revise OOP Design Patterns
      DEADLINE: <2016-08-23 Аўт> SCHEDULED: <2016-08-21 Няд>
 **** TODO Learn Distributed Systems Patterns
-     DEADLINE: <2016-08-27 Суб> SCHEDULED: <2016-08-25 Чцв>
+     DEADLINE: <2016-08-28 Няд> SCHEDULED: <2016-08-25 Чцв>
      Udacity. Introduction to OS. Thread Performance, I/O Management
 **** TODO Learn CAP Thr and Refine distinctions between SQL and NoSQL systems
      DEADLINE: <2016-08-30 Аўт> SCHEDULED: <2016-08-28 Няд>

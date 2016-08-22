@@ -3,6 +3,8 @@
 
 * Ideas for Startup
 ** Environment for debugging of concurrent systems
+** Create lightweight dialog system system with voice recognition for bicycle riders
+   It can be both mobile or web application
 * It might be the case that this peculiar way of thinking that is so common within IT is what helps them do be a good developers
 * How can we use a single the proof for the infinite use cases?
   May be there is a relation between the phenomenon of convergence of
