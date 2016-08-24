@@ -31,10 +31,10 @@
 **** TODO Geometric problems
      DEADLINE: <2016-08-29 Пан> SCHEDULED: <2016-08-28 Няд>
 
-*** Do great on System Design part [1/4]
+*** Do great on System Design part [2/4]
 **** DONE Learn and refine REST API and HTTP Protocol
      DEADLINE: <2016-08-20 Суб> SCHEDULED: <2016-08-16 Аўт>
-**** TODO Revise OOP Design Patterns
+**** DONE Revise OOP Design Patterns
      DEADLINE: <2016-08-23 Аўт> SCHEDULED: <2016-08-21 Няд>
 **** TODO Learn Distributed Systems Patterns
      DEADLINE: <2016-08-28 Няд> SCHEDULED: <2016-08-25 Чцв>
@@ -42,5 +42,38 @@
 **** TODO Learn CAP Thr and Refine distinctions between SQL and NoSQL systems
      DEADLINE: <2016-08-30 Аўт> SCHEDULED: <2016-08-28 Няд>
 
-*** Be good enough on final part [0/1]
-**** TODO Read Booking.com blogs every day up to the interview
+*** Be good enough on final part [1/3]
+**** DONE Get part interview details from James
+**** TODO Read Booking.com blogs every day up to the interview [2/8]
+***** DONE Read
+      SCHEDULED: <2016-08-23 Вт.>
+***** DONE Read
+      SCHEDULED: <2016-08-24 Ср.>
+***** TODO Read
+      SCHEDULED: <2016-08-25 Чт.>
+***** TODO Read
+      SCHEDULED: <2016-08-26 Пт.>
+***** TODO Read
+      SCHEDULED: <2016-08-27 Сб.>
+***** TODO Read
+      SCHEDULED: <2016-08-28 Вс.>
+***** TODO Read
+      SCHEDULED: <2016-08-29 Пн.>
+***** TODO Read
+      SCHEDULED: <2016-08-30 Вт.>
+**** TODO Catch the fundomental principals of Booking.com value delivary
+***** Features:
+      - Allow developers choole whatever tools they want in development
+***** Core principals:
+      Customer focused. It implies usage of buisness effectiveness metrics
+***** A/B Testing
+      1) Work out the hypothesis
+      2) Set up metrics system
+      3) Implement the experimental design
+      4) Conduct the experiment
+      5) Analyse the results and make a decision
+****** Have enough samples sizes (Booking.com traffic size)
+****** Have reliable metrics: number of reservations
+****** Develop the reliable piece of knowledge that can be used in future
+****** Reproducablility in relation to YOUR site and costomers
+***** Build a culture of Data-driven product development !!!
