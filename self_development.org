@@ -13,7 +13,15 @@
 *** TODO Pass Linear Differential Equations MOOC on edX
 *** TODO Pass Nonlinear Differential Equations: Order and Chaos on edX
 * Improve skills in Big Data
-** TODO Pass Stanford edx "Statistical Learning" MOOC
+** Math background
+*** TODO Pass Stanford edx "Statistical Learning" MOOC
+
+** Engineering
+*** TODO Pass "Reliable Distributed Algorithms" on edX
+*** Pass edX Programm "Data Science and Engineering with Apache Spark"
+**** DONE Pass "Introduction to Apache Spark"
+**** TODO Pass "Distributed Machine Learning with Apache Spark"
+**** TODO Pass "Big Data Analysis with Apache Spark"
 
 * Improve skills in Programming Design
 ** DONE pass course "Functional Program Design in Scala" on Coursera
