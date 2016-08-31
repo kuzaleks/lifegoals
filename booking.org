@@ -3,7 +3,7 @@
 ** DONE Pass the auto-graded challenge on HackerRank
 ** DONE Pass the phone-interview
 ** TODO Pass the on-site interview
-*** Do well on Algorithms and Data Structures part [3/8]
+*** Do well on Algorithms and Data Structures part [5/8]
 **** DONE Miscelenious
      DEADLINE: <2016-08-19 Пят> SCHEDULED: <2016-08-19 Пят>
      CLOCK: [2016-08-20 Суб 19:51]--[2016-08-21 Няд 23:39] => 27:48
@@ -19,11 +19,11 @@
      DEADLINE: <2016-08-22 Пан> SCHEDULED: <2016-08-20 Суб>
 ***** Shortest paths
 ***** MST
-**** TODO Improve skill in Dynamic Programming techniq 
+**** DONE Improve skill in Dynamic Programming techniq 
      DEADLINE: <2016-08-25 Чцв> SCHEDULED: <2016-08-23 Аўт>
 **** TODO Rehearse Backtrace method
      DEADLINE: <2016-08-24 Срд> SCHEDULED: <2016-08-24 Срд>
-**** TODO Train string algs
+**** DONE Train string algs
      DEADLINE: <2016-08-27 Суб> SCHEDULED: <2016-08-26 Пят>
 **** TODO Learn multithreaded algs
      DEADLINE: <2016-08-28 Няд> SCHEDULED: <2016-08-28 Няд>
@@ -31,21 +31,186 @@
 **** TODO Geometric problems
      DEADLINE: <2016-08-29 Пан> SCHEDULED: <2016-08-28 Няд>
 
-*** Do great on System Design part [2/4]
+*** Do great on System Design part [4/4]
 **** DONE Learn and refine REST API and HTTP Protocol
      DEADLINE: <2016-08-20 Суб> SCHEDULED: <2016-08-16 Аўт>
 **** DONE Revise OOP Design Patterns
      DEADLINE: <2016-08-23 Аўт> SCHEDULED: <2016-08-21 Няд>
-**** TODO Learn Distributed Systems Patterns
+**** DONE Learn Distributed Systems Patterns and System Design
      DEADLINE: <2016-08-28 Няд> SCHEDULED: <2016-08-25 Чцв>
-     - Udacity. Introduction to OS. Thread Performance, I/O Management
-     - Consider Redis as an option to accelerate data exchange
-**** TODO Learn CAP Thr and Refine distinctions between SQL and NoSQL systems
-     DEADLINE: <2016-08-30 Аўт> SCHEDULED: <2016-08-28 Няд>
+     CLOCK: [2016-08-29 Пан 12:00]--[2016-08-30 Аўт 21:58] => 33:58
+***** Design process
+      1. Figure out use cases and constrains
+         - Functional:
+	   Put down some basic usage cases and extend it further.
+  	   + Do we need manual removals?
+	   + Automatic data expirations
+	   + Do we need analytics?
+	   + Dow we need WEB UI and/or API?
+	 - Non-functional:
+	   The availobility of the system. Requirements to consistance
+      2. Problems constraints
 
-*** Be good enough on final part [1/3]
+	 - The amount of traffic (how many requests per months)
+	   Scale down to requests per second.
+	 - Traffic dynamics flat or undergoas picks
+	 - The amount of data (how many data input per months)
+	 - (about 5 min) Perform Rough Estimation yourself 
+           Based on the number of number of Facebook or Twitters
+           users or as a like. Set your place in top list and divide equally
+	   E.g. of SD the Algebra for Stats:
+	   1. New urls per months: 100 MLN
+	   2. 1BN requests per months
+	   3. 10% from shortening and 90% from redirection*
+	      READ vs. WRITES!
+	   4. Requests per second: 1BN / (30 * 24 * 3600) ~= 400+
+	      ~= 400+ (40: shortens, 360: redirects) 
+	      How Many Data We need: ACCUMULATE!
+	   5. Total urls: 5 years x 12 months x 100MLN ~= 6 BN urls
+	   6. 500 bytes per URL
+	   7. 6 bytes per hash
+	   8. 3TBs for all urls, 36GB for all hashes (over 5 years)
+	   9. New data written per second: 40 * (500 + 6) ~= 20K
+	   10. Data read per second 360 * 506 ~= 180K
+	 - Read/Writes ratio
+      3. Abstract design. Must COVER ALL the use CASES
+	 1. Application service layer (serves the requests)
+	    * Shortening service
+	    * Redirection service
+	 2. Data storage layer (keeps track of the hash => url mappings)
+	    * Acts like a big hash table: stores new mappings,
+	      and retrieves a value
+	      hashed_url = convert_to_base62(md5(original_url + random_salt))[:6]
+      4. Understanding bottlenecks
+	 + Traffic
+	   What do we do per request:
+	   lookup into a table and calculate hash
+	 + Data
+      5. Scaling your abstract design
+	  
+***** Examples
+      1. Instagramm (Photos posting)
+      2. Cinchcast (Audio shearing)
+	 
+ 	   
+***** Even better: discuss a few different potential designs & evaluate
+***** Identify common problems, and build software systems to address them in a general way
+     - Consider Redis as an option to accelerate data exchange
+***** Boss-Workers Pattern
+      T = time_to_finish_1_order * ceiling (num_orders / num_concurrent_threads)
+      * Pros.
+	+ simplicity
+      * Cons.
+	- thread pool management overhead
+	- locality ignorance
+      * Variants
+        + All workers are equal
+        + Workers are specialized
+	  + Better locality
+	  - Necessity of load balancing
+***** Pipeline model
+      T = time_to_finish_first_order + (remaining_orders * time_to_finish_last_stage)
+      * Bottleneck is in the longest link
+	+ Can assign mre threads to this stage
+      * Interaction
+        + Sheared buffer
+	  + No need of sync
+        + Direct communication
+	  - Need to sync
+	    Current worker need to wait for the next to be vacant
+      * Pros.
+	+ Specialization and locality
+      * Cons.
+	- Balancing and complex synchronization
+      
+***** Layered Pattern
+      Trade-off
+      * Pros.
+	+ Specialization
+	+ less fine-grained than pipeline
+      * Cons.
+	- Not suitable for all application
+	- Synchronization more complex then with the rest
+***** Aspects
+      1) Performance
+      2) Internode communication traffic
+      3) Sync and consistency (implies weaker consistency)
+      4) Reliability
+      5) Data/Calculation distribution (work balancing)
+      6) Scalability
+***** Services VPS vs. your own servers
+       - ftp vs. sftp
+       - automatecally spawn as many nodes as you need*
+***** Scaling
+       + Vertical scaling
+	 - Resources of one machine is limited
+       + Horizontal scaling
+	 - Request distribution
+	 - Load balancer
+	   Has public IP adress. Servers have private IP adress
+           + rotating IP adress for the same URL
+	       Round-Robin BIND DNS Server
+           + One of the servers is the bottleneck. Become in more load then the rest
+           + Caching prevents the uniform distribution
+           + Breaks session model (they (cookies) are sitting on one server)
+	       Need to be synced or aggrigated
+           + Facture out session state and distribute sessions among servers
+           + Put sessions on the load balancer
+	       But what if this balancer dies?
+           + RAID0 (splitting data) RAID1 (mirroring data) ... RAID6
+	       Distribution of I/O operations by introducing several disks
+	       Decrease the probability data loss!
+           + Replication on a second master server
+           + Save server IP in cookies
+	       Reveal internal IP address.
+           + Assign UUID to the IP in order to avoid revealing
+           + Load balancing (http requests vs binary stream)
+	 - Caching
+	   + Downside of file-based approach
+	     Huge redundancy due to roughly the same .html pages
+	     If you want to change smth, you'll have to change in all files
+	   + MySQL
+	   + Memchached
+	     SQL queries are MORE expensive than RAM readings
+	   + Run out of RAM
+	   + Archived key-value tables (eg. Logs)
+	 - Replications (Read-heavy vs Write-heavy)
+	   * Pros.
+	     + Reliablity
+               Replicate master servers, load balancers
+               (Active-Active, Active-Passive)
+	     + Distribute Read-request over several automatecaly updated servers 
+               (e.g. Facebook which is mre Read-heavy)
+	   * Cons.
+	 - Load-balancer is a single point of failure!
+	 - Partitioning
+	   Partitioning based on id of data peace
+	 - Content
+	 - Distribute data over Data Centers
+	   Load balancing by means of DNS
+       + Data storage Drive:
+	 - SATA (Mechanical)
+	 - SSD (Electrical)
+       + Kind of traffic:
+	 - Input ot the System
+	   tcp: 22 (ssh), 443 (ssl)
+	 - Out of balancer
+	   tcp 80
+	 - Out of servers (SQL queries)
+	   tcp 3306
+	   
+  
+**** DONE Learn CAP Thr and Refine distinctions between SQL and NoSQL systems
+     DEADLINE: <2016-08-30 Аўт> SCHEDULED: <2016-08-28 Няд>
+***** Concepts:
+****** Synch protocols:
+        + 2-Phase commit
+        + Multi-version Concurrency Control (MVCC)
+        + Paxos (peer-to-peer sync)
+
+*** Be good enough on final part [1/5]
 **** DONE Get part interview details from James
-**** TODO Read Booking.com blogs every day up to the interview [4/8]
+**** TODO Read Booking.com blogs every day up to the interview [7/8]
 ***** DONE Read
       SCHEDULED: <2016-08-23 Вт.>
 ***** DONE Read
@@ -54,20 +219,37 @@
       SCHEDULED: <2016-08-25 Чт.>
 ***** DONE Read
       SCHEDULED: <2016-08-26 Пт.>
-***** TODO Read
+***** DONE Read
       SCHEDULED: <2016-08-27 Сб.>
-***** TODO Read
+***** DONE Read
       SCHEDULED: <2016-08-28 Вс.>
-***** TODO Read
+***** DONE Read
       SCHEDULED: <2016-08-29 Пн.>
 ***** TODO Read
       SCHEDULED: <2016-08-30 Вт.>
 **** TODO Catch the fundomental principals of Booking.com value delivary
-***** Features:
+***** Features and Quotes:
       + Allow developers choole whatever tools they want in development
       + Exploit sence of humor to be more exressive in both blogs and presentations
       + Hackathons as a way to find new ideas
       + Total creative freedome
+      + "We always go out of our way to make everyone's job easier,
+        and not apply restrictions. ... Some of these may occasionally make
+        your skin crawl,but as long as they do the job, that's what matters. "
+      + "Like many other companies built around technology,
+        Booking.com provides a space for developers and designers
+        to tackle those annoying issues that don’t get attention in
+        regular “Hackathon” sessions."
+      + "hasn’t yet seen the light and embraced the creative chaos
+        of a regular hackathon, why not propose that you start?"
+      + "We don't change anything on our website without first validating it
+        (traditionally through A/B split testing)"
+      + "As a company, we take pride in taking small steps towards optimizing our website,
+        measuring along the way and learning from every result."
+      + "Our guiding principle is that by helping our users
+        we help our business."
+      + "Essential part of our recruitment process is Face to Face Interview"
+
 ***** Core principals:
       Customer focused. It implies usage of buisness effectiveness metrics
 ***** A/B Testing
@@ -80,6 +262,9 @@
 ****** Have reliable metrics: number of reservations
 ****** Develop the reliable piece of knowledge that can be used in future
 ****** Reproducablility in relation to YOUR site and costomers
+****** My A/B Experiments proposals
+       + Add possibility to add midle points hotels and create trip routes
+       + Try another recommendation algorithms
 ***** Build a culture of Data-driven product development !!!
 ***** OTA. Agency model vs merchant model
 ****** appointed salesman for hotel
@@ -87,3 +272,38 @@
 ****** comparison engine for end customer
 **** TODO Get initial understanding of Booking.com Perl
 ***** The interpretor c code is revised and optimized
+**** TODO Get aquiented with Booking.com products
+***** Find Deals
+***** Trips of a lifetime
+***** Booking.com for business
+***** chat tool to connect hotels and travelers
+      Integrates with Facebook Messanger
+      Pretranslation of FAQs
+      Develop it's own translation engine
+***** BookingSuite
+      forecasts your property’s occupancy and optimizes your rates
+      up to 360 days 
+***** Pulse
+      receive instant booking notifications, respond to customer
+      requests and much more
+**** Internal tools and Archetacture
+     Key-Instrument: The search over the hotels that satisfies customer's needs
+     - MySQL,
+     - Slack,
+     - Perl,
+     - Mason,
+     - Apache Hive,
+     - Sublime (optional)
+     - Mostly OSX
+**** Stats
+     - Data to store: 2014 <= 25000 GB
+     - 42 languages
+     - 895 000 properties in 224 countries
+     - 10 000 people serving
+     - Traffic dynamics:
+       - 2010: 30M unique visitors per month ~= 1 MLN per day
+       - 2014: 166M per month ~= 64 per sec
+       - 2016: 350M visits per month ~= 175 per sec.
+       - 2016: 30M unique users per months
+     - Over 50% of hotels bookings in Europe
+
