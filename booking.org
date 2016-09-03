@@ -208,9 +208,9 @@
         + Multi-version Concurrency Control (MVCC)
         + Paxos (peer-to-peer sync)
 
-*** Be good enough on final part [1/5]
+*** Be good enough on final part [2/5]
 **** DONE Get part interview details from James
-**** TODO Read Booking.com blogs every day up to the interview [7/8]
+**** DONE Read Booking.com blogs every day up to the interview [8/8]
 ***** DONE Read
       SCHEDULED: <2016-08-23 Вт.>
 ***** DONE Read
@@ -225,13 +225,15 @@
       SCHEDULED: <2016-08-28 Вс.>
 ***** DONE Read
       SCHEDULED: <2016-08-29 Пн.>
-***** TODO Read
+***** DONE Read
       SCHEDULED: <2016-08-30 Вт.>
 **** TODO Catch the fundomental principals of Booking.com value delivary
 ***** Features and Quotes:
-      + Allow developers choole whatever tools they want in development
-      + Exploit sence of humor to be more exressive in both blogs and presentations
-      + Hackathons as a way to find new ideas
+      + Allow developers choose whatever tools they want in development
+      + Exploit sence of humor to be more exressive in both blogs and
+        presentations
+      + Hackathons as a way to find new ideas and systemize engineers
+        initiatives
       + Total creative freedome
       + "We always go out of our way to make everyone's job easier,
         and not apply restrictions. ... Some of these may occasionally make
@@ -253,18 +255,19 @@
 ***** Core principals:
       Customer focused. It implies usage of buisness effectiveness metrics
 ***** A/B Testing
-      1) Work out the hypothesis
-      2) Set up metrics system
-      3) Implement the experimental design
-      4) Conduct the experiment
-      5) Analyse the results and make a decision
-****** Have enough samples sizes (Booking.com traffic size)
-****** Have reliable metrics: number of reservations
-****** Develop the reliable piece of knowledge that can be used in future
-****** Reproducablility in relation to YOUR site and costomers
-****** My A/B Experiments proposals
-       + Add possibility to add midle points hotels and create trip routes
-       + Try another recommendation algorithms
+      - Workflow
+        1) Work out the hypothesis
+        2) Set up metrics system
+        3) Implement the experimental design
+        4) Conduct the experiment
+        5) Analyse the results and make a decision
+      - Have enough samples sizes (Booking.com traffic size)
+      - Have reliable metrics: number of reservations
+      - Develop the reliable piece of knowledge that can be used in future
+      - Reproducablility in relation to YOUR site and costomers
+      - My A/B Experiments proposals
+        + Add possibility to add midle points hotels and create trip routes
+        + Try another recommendation algorithms
 ***** Build a culture of Data-driven product development !!!
 ***** OTA. Agency model vs merchant model
 ****** appointed salesman for hotel
