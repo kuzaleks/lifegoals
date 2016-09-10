@@ -1,6 +1,6 @@
 
 
-* TODO Pass interview to Google
+* TODO Pass interview to Google [POSTPONED]
   SCHEDULED: <2016-04-25 Пн.>
 ** Practice problems with
    https://www.topcoder.com, Algorithms, The Algorithms Design, 

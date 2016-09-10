@@ -1,5 +1,5 @@
 
-* Get employed on postion of developer at Booking.com
+* Get employed on postion of developer at Booking.com [POSTPONED]
 ** DONE Pass the auto-graded challenge on HackerRank
 ** DONE Pass the phone-interview
 ** TODO Pass the on-site interview

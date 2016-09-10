@@ -33,3 +33,12 @@
 * Programming course
   Initially flood students with simple task in order to reinforce their
   skills of basic concepts and tools
+* Create voice bot for the bicycle drivers
+  As the objective. There is much simplear to create reliable voice recognition
+  for the limited context
+* Concepts and skills in your memory accelerate thinking
+  When you load into your mind concepts, their structure and refine all that by
+  rehearsal on dozens of examples, you can quickly operate on that and solve even
+  complex tasks. The reason is that whole solution can fit in operate memory
+  and utilize it's speed. The additional important attribute is to know the exact numbers
+  of the real world context.
