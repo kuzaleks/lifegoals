@@ -42,3 +42,8 @@
   complex tasks. The reason is that whole solution can fit in operate memory
   and utilize it's speed. The additional important attribute is to know the exact numbers
   of the real world context.
+* OOP Design as an approximation of Descrite reality modeling using Finate Automata
+  It's known that continuous systems are modeled with differential equations. In contrast,
+  descrete systems by Finate Automata. May be the idea behind OOP design is create informal 
+  approximation of finate automatas for reality modeling. Each object persist state and
+  states (State) are changed by calling the appropriate methods (Action or Event)
