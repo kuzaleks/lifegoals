@@ -49,3 +49,6 @@
 
 * Learn to draw
 
+* Improve skills in Software Development
+** Version Control
+   Git is used for continious development. It does not care about states of the previous tags
