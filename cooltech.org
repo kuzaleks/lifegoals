@@ -1,0 +1,5 @@
+
+* TODO Get aquiented with Apache Drill
+  :PROPERTIES:
+  :url:      https://drill.apache.org/
+  :END:
