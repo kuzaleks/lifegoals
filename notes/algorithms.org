@@ -1,0 +1,4 @@
+
+* Sorting is the way to simplify search
+
+* Set techniques is the way to deal with duplications

@@ -1,0 +1,8 @@
+
+* Ideas
+** Distributed speech recognition
+   - Implement various speech recognition methods using Apache Spark
+   - Implement SVD for speech sources segregation
+** Applications distributed over several mobile devices
+   - Movement and gestures recognition using several devices
+   - Speech recognition refinement using signal from several devices
