@@ -3,3 +3,6 @@
   :PROPERTIES:
   :url:      https://drill.apache.org/
   :END:
+* TODO Get aquiented with Redis
+** TODO Deploy on cluster
+** TODO Interact with PostgreSQL

@@ -1,0 +1,6 @@
+
+* Generic Software Architecture 
+** Serialization
+*** TODO Describe the data model for automatic serialization
+** Notification
+*** TODO Create the a structure (tree, etc.) of handlers with filters and formatters (serializers)
