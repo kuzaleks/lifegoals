@@ -1,0 +1,4 @@
+
+* Test of interaction with OS
+  The essential part of non-functional testing is to verify the interaction with OS.
+  cases: Memory leak, too many opened files left, etc.
