@@ -6,3 +6,6 @@
 * TODO Get aquiented with Redis
 ** TODO Deploy on cluster
 ** TODO Interact with PostgreSQL
+* TODO Get aquiented with Bash
+** Resources
+   1. https://habrahabr.ru/company/mailru/blog/311762/
