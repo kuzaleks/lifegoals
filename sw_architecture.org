@@ -4,3 +4,6 @@
 *** TODO Describe the data model for automatic serialization
 ** Notification
 *** TODO Create the a structure (tree, etc.) of handlers with filters and formatters (serializers)
+** Authentication and Authorization
+*** TODO Manage users and groups level access
+*** TODO Provide authorization using tokens
