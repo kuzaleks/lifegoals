@@ -53,3 +53,8 @@
   commands. For example, Git frameworks are implemented using generic programming language
   constructs. These constructs get translated into machine commands. Machine commands trigger
   simple controls and data flows in a hardware.
+* The idea of incremental knowledge building
+  Let's assume that the main goal is to workout the full understanding of some phenomenon.
+  In this situation making the knowledge transfer we need to respect the following constraints:
+  we need to fit in time slot. As a result we need to embed the new info into existing knowledge
+  structure. So, the prerequisites is the essential part of every knowledge transfer.
