@@ -58,3 +58,5 @@
   In this situation making the knowledge transfer we need to respect the following constraints:
   we need to fit in time slot. As a result we need to embed the new info into existing knowledge
   structure. So, the prerequisites is the essential part of every knowledge transfer.
+* If you've decided what you really want -- you are released from doubts.
+
