@@ -104,19 +104,20 @@ IELTS Academic 2010 Overall Band Score 6.5}
 \subsection{Rex Content Build}
 The main goal of the project is to create translator from custom data format into xhtml documents.
 Working in small team, we created a lightweight web-application based on flask and PostgreSQL that facilitates both CLI and Web UI. Most of all I contributed into development of parser for custom data format. In particular, I design both regular expressions for lexicon as well as Context Free Grammar rules for grammar description. The parser is implemented using YACC.
+Beside that, I contributed into optimization of collection processing performance. In particular, we use Python Celery in order to facilitate parallelization of jobs.
 \subsection{ACI Project}
-The application is a kind of firewall. My task was to develop the lightweight framework that facilitates the distribution of application run over several processes. The interaction between processes was organized using AMQP protocol.
+The application is a kind of firewall. My task was to develop the lightweight framework that facilitates the distribution of application run over several processes. The interaction between distributed parts was organized using AMQP protocol.
 \subsection{The PhD thesis Project}
 The project was dedicated to the development and research of the speech recognition system. It includes the following parts:
 
 \begin{itemize}
-  \item made the comprehensive review of the state-of-the-art continuous speech recognition methods and technologies;
-  \item iplemented the acoustic models application in Python using GHMM library;
-  \item implemented the ``Token Passing'' algorithm for phrase recognition;
-  \item design the speech recognition system that features SVM as acoustic models;
-  \item implemented the kernel principal component analysis for speech signal analysis;
-  \item write the number of articles for belarusion scientific journals;
-participated in the international technological and scientific conferences.
+  \item The comprehensive review of the state-of-the-art continuous speech recognition methods and technologies;
+  %% \item The implementation of the acoustic models application in Python using GHMM library;
+  \item The implemented of the ``Token Passing'' algorithm for phrase recognition;
+  \item The design and development the speech recognition system that features SVM as acoustic models;
+  \item The development of the system that implements kernel PCA for speech signal analysis. The calculations are mostly performed on GPU. The system is implemented using CUDA technology;
+  \item Writing of the number of articles for belarusion scientific journals;
+participation in the international technological and scientific conferences.
 \end{itemize}
 %\section{Interests}
 %\cvitem{hobby 1}{Description}
@@ -124,31 +125,36 @@ participated in the international technological and scientific conferences.
 %\cvitem{hobby 3}{Description}
 
 \section{Certificates}
-\cvitem{Coursera}{Digital Signal Processing}
-\cvitem{Coursera}{Linear and Discrete Optimization}
 
+\subsection{Machine Learning and Data Analysis}
 \cvitem{Coursera}{Introduction to Data Science}
 \cvitem{Coursera}{Mining Massive Datasets}
 \cvitem{Coursera}{Machine Learning}
 \cvitem{edX}{Scalable Machine Learning}
 \cvitem{edX}{Big Data Analysis with Apache Spark}
 
+\subsection{Concurrency and Parallelization}
 \cvitem{edX}{Reliable Distributed Algorithms - Part 1}
 \cvitem{Coursera}{Heterogeneous Parallel Programming}
 \cvitem{Coursera}{Principles of Reactive Programming}
 \cvitem{Coursera}{Parallel programming}
 %% \cvitem{Coursera}{Programming Languages}
 
+\subsection{Algorithms and Data Structures}
 \cvitem{Coursera}{Functional Programming Principles in Scala}
-
 \cvitem{Coursera}{Approximation Algorithms Part I}
+\cvitem{Coursera}{Linear and Discrete Optimization}
+
+\subsection{Math}
+\cvitem{Coursera}{Digital Signal Processing}
 \cvitem{Coursera}{An Introduction to Functional Analysis}
 \cvitem{Coursera}{Coding the Matrix: Linear Algebra through Computer Science Applications}
 \cvitem{Coursera}{Analysis of a Complex Kind}
 
 %% \cvitem{Stanford OpenEdX}{Writing in the Sciences}
-
+\subsection{Miscellaneous}
 \cvitem{Coursera}{Startup Engineering}
+\cvitem{edX}{Minds and Machines}
 
 \section{Community Activities}
 \cvitem{2008--2009}{Chairman of the Student Union of the Faculty of Radio Physics and Electronics}
