@@ -1,0 +1,4 @@
+
+* Support some of the math notations with code that implements it
+  For better understanding. Some people (likely the majority) prefer programming code
+  rather then math notation
