@@ -1,0 +1,12 @@
+
+* TODO Pass the phone interview
+** TODO Be prepared in Programming Languages
+** TODO Be prepared in Data Structures
+** TODO Be prepared in Algorithms
+   CLOCK: [2016-12-05 Пн. 12:12]--[2016-12-05 Пн. 19:25] =>  7:13
+** TODO Be prepared in Object-Oriented Programming
+** TODO Be prepared in Coding
+** TODO Be prepared in Distributed Algorithms
+** TODO Be prepared in Databases
+** TODO Be prepared in Operating Systems
+** TODO Be prepared in Internet Topics
