@@ -2,3 +2,8 @@
 * Test of interaction with OS
   The essential part of non-functional testing is to verify the interaction with OS.
   cases: Memory leak, too many opened files left, etc.
+* SQL queries is essentially the program written fully in Functional Language
+  In fact, when you compose SQL queries you, essentially use higher order
+  function like `map`, `filter`, `mapReduce` to retrieve and edit data. It implies
+  that you can use your skills in Functional Programming to compose complex SQL queries
+  rather than train them from the scratch
