@@ -7,3 +7,8 @@
   function like `map`, `filter`, `mapReduce` to retrieve and edit data. It implies
   that you can use your skills in Functional Programming to compose complex SQL queries
   rather than train them from the scratch
+* What the Software Architecture is about
+  The SA typically features those aspects of a system which are the hardes to be edited 
+  or substituted. One of the purposes of SA is to represent (or catch the essense) of the system
+  as early as possible. The retionale is that we can analyse and evaluate this representation 
+  and reveal pluses and minuses
