@@ -12,3 +12,19 @@
   or substituted. One of the purposes of SA is to represent (or catch the essense) of the system
   as early as possible. The retionale is that we can analyse and evaluate this representation 
   and reveal pluses and minuses
+* Possible Answers (Non-Functional Requirements)
+  1. [ ] Accessibility
+  2. [ ] Availability
+  3. [ ] Exploitability
+  4. [ ] Extensibility
+  5. [ ] Interoperability
+  6. [ ] Maintainability
+  7. [ ] Modifiability
+  8. [ ] Performance
+  9. [ ] Portability
+  10. [ ] Reliability
+  11. [ ] Scalability
+  12. [ ] Security
+  13. [ ] Supportability
+  14. [ ] Testability
+  15. [ ] Usability
