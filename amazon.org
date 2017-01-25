@@ -1,4 +1,11 @@
 
+* Amazon Info
+** Optimistic transaction approach for the DynamoDB
+    It has only one version for a key-value pair. It obeys LWW (Last Writer Win) policy.
+    Relies on time synchronization algorithms. 
+**** Why not to use vector clocks?
+** Number of machines per zone
+
 * TODO Pass the phone interview
 ** TODO Be prepared in Programming Languages
 ** TODO Be prepared in Data Structures
@@ -10,3 +17,4 @@
 ** TODO Be prepared in Databases
 ** TODO Be prepared in Operating Systems
 ** TODO Be prepared in Internet Topics
+
