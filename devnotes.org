@@ -28,3 +28,4 @@
   13. [ ] Supportability
   14. [ ] Testability
   15. [ ] Usability
+* Architectual Style deals with non-functional requirements
