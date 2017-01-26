@@ -18,3 +18,7 @@
 ** TODO Be prepared in Operating Systems
 ** TODO Be prepared in Internet Topics
 
+* Practice
+** Algorithms and Data Structures
+*** Graph Theory
+    https://www.hackerrank.com/challenges/floyd-city-of-blinding-lights
