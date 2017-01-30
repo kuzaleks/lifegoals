@@ -29,3 +29,33 @@
   14. [ ] Testability
   15. [ ] Usability
 * Architectual Style deals with non-functional requirements
+* If you have a class without state, it should, probable, be and interface
+* The presence of a "God class" is a sign of a bad OOD
+* Role-based Design Use cases as an alternative to OOD. Ends up with Collaboration Diagramm
+  The whole idea is to create a really abstract representaion of the system backed by
+  dependency inversion
+*** Concepts
+    + Role-based Design
+      Based on Use cases. Specified by a Collaboration Diagramm
+    + Dependency Inversion Principle
+      Hight-level modules should NOT depend on low level ones. As an opposite to
+      the principle of "Layered Architecture" (high level modules are built on to of
+      low level one)
+* In Interfaces or Abstract classes you capture the essance. Something really Abstract
+  The abstract system in this case plays a role of Protocols (the names of an abstract
+  methods that should be called)
+* OOA vs. OOD
+  Don't have:
+  + Associations
+  + Aggregations
+  + Invariants
+  + StateCharts
+* System Design Issues
+  + Architecture
+  + Concurrency
+  + Physical Design
+  + Data Stores
+  + Control
+    Reactive vs. Proactive
+  + Error and Failure Handling
+  + Scalability
