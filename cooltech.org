@@ -9,3 +9,7 @@
 * TODO Get aquiented with Bash
 ** Resources
    1. https://habrahabr.ru/company/mailru/blog/311762/
+
+* Distribute Storage
+** Ceph
+   Separates metadata and data. POSIX like.
