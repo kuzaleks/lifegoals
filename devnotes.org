@@ -59,3 +59,84 @@
     Reactive vs. Proactive
   + Error and Failure Handling
   + Scalability
+* Middleware as a mean to generialize local programming facilities to distrib systems
+  Maps procedure call into RPC, set up objects global id, 
+  object methond invocation into RMI and so on. Middleware provides
+  transperancy for the client in a sence that a former does not distinguish
+  whether the procedure call was local or remote.
+* High Load Infrastructure
+  In general the basic shema with replicated load-balancer, connected
+  into worker servers. Where each worker server got access through
+  DB replicated load balancer to the distributed storage is a great way 
+  to start.
+                             XXXXXXXXXXXXXXX
+                         XXX              XX
+                       XXX                 X
+              XXXXXXXXXXXX                 XXXXXXXX
+             XX          XXX               XX      XX
+           XX                             XX         XX
+           X                             XX           XX
+           X            INTERNET                       X
+           XX                                          X
+            XXXX                                      XX
+              XXXXX                             XXXXXX
+                  XXXX X             XXXXXXXXXXX
+                     XXXXXXXXXXXXXXXXX
+                     ^  +
+                     |  |
+                     |  |
+                     |  |  We may use several entry points utilizing DNS Server
+                     |  v
+                     |
+              +------+--------+        +-----------------+
+              |               +------> |                 |
+              |Load Balancer  |        | Replica         |
+              |               | ^------+                 |
+      +-------+----------+----+--------------------------+-----+
+      |                  |                                     |
+      |                  |                                     |
+      |                  |                                     |
+      |                  |                                     |
+      |                  |                                     |
+      |                  |                                     |
++-----v------+     +-----v------+                  +-----------+--+
+|            |     |            |                  |              |
+|  Worker    |     | Worker     |    X   X   X     |  Worker      |
++-------+----+     +----+----+--+------------------+--------------+
+        |               |    |
+        |               |    |
+        |               |    |
+        |               |    |
+        |               |    |
+        |               |    |
+        |     +---------v----v-+       +-----------------+
+        |     |                +-----> |                 |
+        +-----> DB Load Balancer       |  Replica        |
+              |                + ^-----+                 |
+              +--+-------------+----------+--------------+------------------------------+
+                 |                        |                                             |
+                 |                        |                                             |
+                 |                        |                                             |
+                 |                        |                                             |
+                 |                        |                                             |
+                 |                        |                                             |
+                 |                        |                                             |
+     +-----------v-----+          +-------v----------+                          +-------v----------+
+     |                 |          |                  |                          |                  |
+     |  Distrib DB     |          |  Distrib DB      |       X     X      X     |   Distrib DB     |
+     |  Worker         |          |  Worker          |                          |   Worker         |
+     |                 |          |                  |                          |                  |
+     +-----------------+          +------------------+                          +------------------+
+
+  + [ ] Retrieve photo for Blog under the high load conditions
+  + [ ] BLOB. The idea is to separate references to binary files 
+        and the contents itself. The content is stored in BLOB.
+        Examples: Ambry, Warm, S3, Apache SWIFT
+	Dropbox stores files metadata on it's servers and file content
+	in Amazon S3
+* MapReduce as a way to perform SQL queries on a cluster of machines
+  Facebook HQL.
+** TEZ employs graph-based algorithms
+   Underlies Pig and HIVE in order to translate SQL queries into
+   mapReduce jobs. It, basicaly, optimizes mapReduce schema for jobs
+
