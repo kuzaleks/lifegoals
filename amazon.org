@@ -5,20 +5,18 @@
     Relies on time synchronization algorithms. 
 **** Why not to use vector clocks?
 ** Number of machines per zone
+** juju
+** Amazon WebServices uses REST Architecture
 
-* TODO Pass the phone interview
-** TODO Be prepared in Programming Languages
-** TODO Be prepared in Data Structures
-** TODO Be prepared in Algorithms
-   CLOCK: [2016-12-05 Пн. 12:12]--[2016-12-05 Пн. 19:25] =>  7:13
-** TODO Be prepared in Object-Oriented Programming
-** TODO Be prepared in Coding
-** TODO Be prepared in Distributed Algorithms
-** TODO Be prepared in Databases
-** TODO Be prepared in Operating Systems
-** TODO Be prepared in Internet Topics
+** Amazon S3 BLOB. Eventual Consistency
+   Files up to 5 terabytes.
+   How it actually works? What replication algorithms?
+   How many replicas. How is Load balancing performed?
 
 * Practice
 ** Algorithms and Data Structures
 *** Graph Theory
-    https://www.hackerrank.com/challenges/floyd-city-of-blinding-lights
+    - [ ] https://www.hackerrank.com/challenges/floyd-city-of-blinding-lights
+*** Dynamic Programming
+    - [ ] https://www.hackerrank.com/challenges/stockmax
+    - [ ] https://www.hackerrank.com/challenges/string-reduction
