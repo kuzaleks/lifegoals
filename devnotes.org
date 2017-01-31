@@ -140,3 +140,33 @@
    Underlies Pig and HIVE in order to translate SQL queries into
    mapReduce jobs. It, basicaly, optimizes mapReduce schema for jobs
 
+* The principle of Generalization: an Instance of a Subclass IS an Instance of a Superclass
+  Add features rather than override it (if the feature is not abstract)
+  + The child methods can accept any arguments that parent's method could
+  + The output of the child methods given the same arguments should conincide with the
+    output of parants methods
+
+* Consider State Pattern when the entity might dinamically change it's type
+
+* Represantation of associations in OOD
+  + Directionality
+  + Cardinality
+  + Access (CRUD)
+  + Invariants maintainance
+  Implementations:
+  - One-Way
+    + 1-1 Association;
+      Simple pointer.
+    + 1-n Association
+      Vector of pointers.
+  - Two-Way
+    Consider referential integrity
+    + 1-1 Pointers in two directions.
+      Referential Integrity Issues
+    + n-n Vectors of pointers in two directions
+      Referential Integrity Issues
+    + Associations as objects
+      pointers for both objects. Extra burden
+
+* Structural Patterns. How to deal with Whole-Part relationships
+  
