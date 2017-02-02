@@ -12,6 +12,24 @@
    Files up to 5 terabytes.
    How it actually works? What replication algorithms?
    How many replicas. How is Load balancing performed?
+** Amazon Route 53
+   monitor the health and performance of your web applications,
+   web servers, and other resources.
+*** DNS failover
+    you can configure DNS failover by associating health checks
+    with your resource record sets. 
+** Amazone ElasticCache
+   web service that makes it easy to deploy,
+   operate, and scale an in-memory data store or cache in the cloud.
+** Does Amazon plan to create it's own app (web service) for deployment?
+   Like Docker, SaltStack, Puppet, etc.
+** AWS Database Migration Service
+   Do you currently store relational data in an on-premises Oracle, SQL Server,
+   MySQL, MariaDB, or PostgreSQL database? Would you like to move it to the AWS cloud
+   with virtually no downtime so that you can take advantage of the scale,
+   operational efficiency, and the multitude of data storage options that
+   are available to you?
+
 
 * Practice
 ** Algorithms and Data Structures
