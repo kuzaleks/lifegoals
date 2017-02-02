@@ -90,8 +90,8 @@
                      |
               +------+--------+        +-----------------+
               |               +------> |                 |
-              |Load Balancer  |        | Replica         |
-              |               | ^------+                 |
+              |Load Balancer  |        |Replica(StandBy) |
+              |  (primary)    | <------+                 |
       +-------+----------+----+--------------------------+-----+
       |                  |                                     |
       |                  |                                     |
@@ -170,3 +170,4 @@
 
 * Structural Patterns. How to deal with Whole-Part relationships
   
+* The interviewers look for the ability to Analyse and Design!
