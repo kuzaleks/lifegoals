@@ -171,3 +171,4 @@
 * Structural Patterns. How to deal with Whole-Part relationships
   
 * The interviewers look for the ability to Analyse and Design!
+* Try Implement the Design Pattern (Solution) before delving into Consequences
