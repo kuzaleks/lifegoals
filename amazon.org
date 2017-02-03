@@ -1,5 +1,5 @@
 
-* Amazon Info
+* Amazon Insiders
 ** Optimistic transaction approach for the DynamoDB
     It has only one version for a key-value pair. It obeys LWW (Last Writer Win) policy.
     Relies on time synchronization algorithms. 
@@ -30,6 +30,17 @@
    operational efficiency, and the multitude of data storage options that
    are available to you?
 
+** Deployment Procedures Route 53
+   Don't have rigid release or deployment schedules.  Individual developers
+   are responsible for verifying their changes in the staging environment and
+   pushing their changes into production. Each step of the pipeline is referred to
+   as a "wave" and consists of some portion of our fleet. After each wave of the pipeline,
+   the change can be verified -- this can include automatic, scheduled and
+   manual testing as well as the verification of service metrics.
+*** Stages:
+    + Dev
+    + Staging
+    + Production
 
 * Practice
 ** Algorithms and Data Structures
