@@ -45,7 +45,7 @@
 * Practice
 ** Algorithms and Data Structures
 *** Graph Theory
-    - [ ] https://www.hackerrank.com/challenges/floyd-city-of-blinding-lights
+    - [X] https://www.hackerrank.com/challenges/floyd-city-of-blinding-lights
 *** Dynamic Programming
     - [ ] https://www.hackerrank.com/challenges/stockmax
     - [ ] https://www.hackerrank.com/challenges/string-reduction
