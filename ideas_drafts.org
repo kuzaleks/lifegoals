@@ -59,4 +59,12 @@
   we need to fit in time slot. As a result we need to embed the new info into existing knowledge
   structure. So, the prerequisites is the essential part of every knowledge transfer.
 * If you've decided what you really want -- you are released from doubts.
+* The concept "Continuous Learning" or "Continuous Education"
+  The idea to provide the mechanism for the system continuously using it's working data 
+  in order to improve the performace.
+  - Example. The speech recognition system might use it's users phrases and voice for
+    continuous customization
+  - Routing system might catch traffic patterns and use it for better redistribution
+  The principle might be extend in the following way. Every component might collect
+  it's usage data in order to improve it's behavior
 
