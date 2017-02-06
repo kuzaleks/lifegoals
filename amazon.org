@@ -42,6 +42,8 @@
     + Staging
     + Production
 
+** On 20 AUG 2015 AWS announced a plug-in for Titan that allows it to use DynamoDB as a storage backend.
+
 * Practice
 ** Algorithms and Data Structures
 *** Graph Theory
