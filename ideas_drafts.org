@@ -68,3 +68,6 @@
   The principle might be extend in the following way. Every component might collect
   it's usage data in order to improve it's behavior
 
+* Develope app that recognizes Design Pattern in a Code using ML
+
+* Graph DB deployed on NoSQL key-value stores can be a good alternative ot a relative DB.
