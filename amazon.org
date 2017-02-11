@@ -43,6 +43,8 @@
     + Production
 
 ** On 20 AUG 2015 AWS announced a plug-in for Titan that allows it to use DynamoDB as a storage backend.
+** Rumored to use Gossip Failure Detector in AWS EC2 and S3 (Rumored).
+   Is it True?
 
 * Practice
 ** Algorithms and Data Structures
@@ -51,3 +53,5 @@
 *** Dynamic Programming
     - [ ] https://www.hackerrank.com/challenges/stockmax
     - [ ] https://www.hackerrank.com/challenges/string-reduction
+    - [ ] https://www.hackerrank.com/challenges/common-child
+      

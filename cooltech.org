@@ -13,3 +13,5 @@
 * Distribute Storage
 ** Ceph
    Separates metadata and data. POSIX like.
+** TITAN. Distributed Graph Database
+   http://titan.thinkaurelius.com/
